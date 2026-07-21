@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap');
+
+body{
+ font-family:"Noto Sans","Noto Sans Thai","Yu Gothic",sans-serif;
+    background:#f5f5f5;
+    margin:0;
+    color:#222;
+}
+
+header{
+    background:#005b96;
+    color:#fff;
+    padding:18px;
+}
+
+.card{
+    background:#fff;
+    margin:14px;
+    padding:16px;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+}
+
+.time{
+    font-weight:bold;
+    color:#005b96;
+}
+
+.local{
+    color:#666;
+    margin-bottom:6px;
+}
+
+.move{
+    background:#eef7ff;
+    margin:14px;
+    padding:16px;
+    border-radius:12px;
+    border:1px solid #0b7dda;
+    box-sizing:border-box;
+}
+
+.memo{
+    background:#fff7d6;
+    padding:10px;
+    border-left:5px solid orange;
+    margin-top:8px;
+}
+
+.map{
+    display:inline-block;
+    margin-top:6px;
+    background:#0b7dda;
+    color:#fff;
+    padding:8px 12px;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.map:hover{
+    background:#0869b0;
+}
+
+h2{
+    color:#005b96;
+    border-bottom:2px solid #005b96;
+    padding-bottom:4px;
+}
+
+.restaurant{
+    padding:10px 0;
+    border-bottom:1px solid #ddd;
+}
+
+.daylink{
+    display:block;
+    padding:12px;
+    margin:6px 0;
+    text-decoration:none;
+    color:#222;
+    border-radius:8px;
+}
+
+.daylink:hover{
+    background:#eef7ff;
+}
+
+.nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:12px;
+}
+
+.nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.highlight{
+    border:3px solid #0b7dda;
+}
+
+.highlight h2{
+    color:#0b7dda;
+    border-bottom:2px solid #0b7dda;
+}
