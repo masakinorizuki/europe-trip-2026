@@ -106,3 +106,16 @@ h2{
     color:#0b7dda;
     border-bottom:2px solid #0b7dda;
 }
+
+.ticket{
+    display:inline-block;
+    background:#7b4dbb;
+    color:#fff;
+    padding:8px 12px;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.ticket:hover{
+    background:#68409f;
+}
